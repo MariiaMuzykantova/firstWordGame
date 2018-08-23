@@ -1,0 +1,32 @@
+[
+    {"id": 0,
+        "title": "Group 1",
+        "description": "Examples of some common Type 1 verbs: ajaa 'to drive', alkaa 'to start', 'to begin', katsoa 'to look at', kieltää 'to deny', kiertää 'to go around', vaatia 'to demand', ymmärtää 'to understand'",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/4a4b058e7ff4ebd359c457e82eea73b3-full.jpg"
+        },
+        {"id": 1,
+        "title": "Group 2",
+        "description": "Examples of some common Type 2 verbs: juoda 'to drink', jäädä 'to stay', kanavoida 'to channel', luennoida 'to lecture', myydä 'to sell', saada 'to get', 'to be allowed', soida 'to ring (out)', uida 'to swim', viedä 'to take', voida 'to be able to'",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/416bb06420e6d1239aa86a9756bb0b98-full.jpg"
+        },
+        {"id": 2,
+        "title": "Group 3",
+        "description": "Examples of some common Type 1 verbs: ajatella jtk 'to think about something', hymyillä 'to smile', julkaista 'to publish', kiistellä 'to quarrel'",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/a3a9fb0a6e8bc54cfc24ad5e002a037c-full.jpg"
+        },
+        {"id": 3,
+        "title": "Group 4",
+        "description": "Examples of some common Type 4 verbs: avata 'to open', erota 'to quit', hakata 'to beat', haluta 'to want', herätä 'to wake up', huomata 'to notice'",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/fe54aec0732de88351857ab9063dc5b8-full.jpg"
+        },
+        {"id": 4,
+        "title": "Group 5",
+        "description": "Examples of some common Type 5 verbs: hallita 'to rule', 'to govern'; 'to be able to', havaita 'to perceive', hillitä 'to restrain', 'to check', 'to control', häiritä 'to disturb'",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/08fede89bb7d93747442e6d303ffb971-full.jpg"
+        },
+        {"id": 5,
+        "title": "Group 6",
+        "description": "Examples of some Type 6 verbs: aleta, ehetä = ehjetä, enetä, erjetä, halveta, heiketä, heletä, heljetä, herjetä = heretä, hiljetä, himmetä, hoiketa",
+        "image": "https://cdn1.savepice.ru/uploads/2018/7/30/6dd09a77ec9a3cd4bc71dff6dd913a74-full.jpg"
+        }
+]
