@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, TextInput, ScrollView } from 'react-native';
+import { Text, TextInput, ScrollView } from 'react-native';
 import Communications from 'react-native-communications';
-import { connect } from 'react-redux';
-import { courseUpdate } from '../actions';
 import {  Button } from './common';
-import { Icon, Card, CardItem, Container } from 'native-base';
+import {  Card, CardItem, Container } from 'native-base';
 
 class ContactUs extends Component {
 
@@ -12,12 +10,7 @@ class ContactUs extends Component {
         super(props);
         this.state = {text: ''}
     }
-    // onTextPress = () => {
-    //     const phone = "04453315403"
-
-    //     Communications.text(phone, 'message')
-    // }
-
+    
     onTextPress = () => {
         const mail = "muzykantovamariia@hotmail.com"
         const { text } = this.state

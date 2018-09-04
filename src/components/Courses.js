@@ -1,16 +1,10 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { View, ListView, TextInput } from 'react-native';
+import { View, ListView } from 'react-native';
 import { wordsFetch } from '../actions';
 import ListItem from './ListItem';
 import { Card, CardItem, Icon } from 'native-base';
-//import Activity from './Activity';
-// import BouncyDrawer from 'react-native-bouncy-drawer';
-//import Actions from 'react-native-router-flux';
-// import MAIcon from 'react-native-vector-icons/MaterialIcons';
-// import View from 'react-native-view';
-//import { RSA_X931_PADDING } from 'constants';
 
 class Courses extends Component {
 
@@ -40,42 +34,17 @@ class Courses extends Component {
                 <CardItem>
                     <Icon active name="arrow-forward" color={{ tintColor: 'orange' }}/>
                     <ListItem words={word}/>
-                    {/* <Right>
-                        <Icon name="arrow-forward"/>
-                    </Right> */}
                 </CardItem>
             </Card>
             
         )
     }
 
-    // onTextSearch(text) {
-    //     const newData = words.filter(function(item) {
-    //         const itemData = item.word.toUpperCase();
-    //         const textData = text.toUpperCase()
-    //         return itemData.indexOf(textData) > -1
-    //     })
-        
-    //         this.dataSource =ds.cloneWithRows(newData)
-    //         this.text = text
-    
-    // }
-
     render() {
         console.log(this.props);
 
         return (
             <View style={{marginTop: 20}}>
-                {/* <TextInput
-                    style={{height: 30, 
-                        borderWidth: 1, 
-                        borserColor: 'blue',
-                        marginBottom: 10, 
-                        marginHorizontal: 15
-                    }}
-                    onChangeText={(text) => this.filterSearch(text)}
-                    value={this.state.text}
-                /> */}
                 <ListView
                 enableEmptySections
                 dataSource={this.dataSource}

@@ -23,19 +23,19 @@ class Menu extends Component {
 
     return (
         <View>
-            <Button block primary style={styles.buttonStyle}>
+            <Button block info style={styles.buttonStyle}>
             <Text style={styles.textStyle} onPress={() => Actions.courses()}> 
                 Dictionary
             </Text>
             </Button>
 
-            <Button block success style={styles.buttonStyle}>
+            <Button block primary style={styles.buttonStyle}>
             <Text style={styles.textStyle} onPress={() => Actions.wordcreate()}> 
                 Add new definition
             </Text>
             </Button>
 
-            <Button block primary style={styles.buttonStyle}>
+            <Button block success style={styles.buttonStyle}>
             <Text style={styles.textStyle} onPress={() => Actions.verbslist()}> 
                 6 Verbs groups
             </Text>
@@ -77,9 +77,9 @@ const styles = {
         alignSelf: 'stretch',
         borderRadius: 5,
         marginTop: 30,
-        marginBottom: 10,
-        paddingTop: 20,
-        paddingBottom: 20,
+        marginBottom: 5,
+        paddingTop: 25,
+        paddingBottom: 25,
         borderWidth: 1,
         marginRight: 5,
         marginLeft: 5

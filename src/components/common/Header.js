@@ -14,7 +14,6 @@ return (
 
 const styles = {
     viewStyle: {
-        backgroundColor: '#ffefd5',
         justifyContent: 'center',
         alignItems: 'center',
         height: 60,
@@ -22,12 +21,9 @@ const styles = {
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2
-
-        
     },
     textStyle: {
-        fontSize: 20
-        
+        fontSize: 30
     }
  
 };

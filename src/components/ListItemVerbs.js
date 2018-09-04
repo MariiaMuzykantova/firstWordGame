@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image, LayoutAnimation, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { connect } from 'react-redux';
-import {  CardSection } from './common';
+import { CardSection } from './common';
 import { Card } from 'native-base';
 import * as actions from '../actions';
 
@@ -17,7 +17,7 @@ class ListItemVerbs extends Component {
             return (
                 <CardSection>
                     <View style={{flex: 1, paddingLeft: 15, fontSize: 16, fontStyle: 'italic'}}>
-                        <Text>{library.item.description}</Text>
+                        <Text style={{ fontSize: 18, backgroundColor: "#e3f1f1", padding: 10, fontStyle: "italic" }}>{library.item.description}</Text>
                         
                         <Image 
                             style={{width: 330, height: 500}}
